@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <link rel="stylesheet" href="index.css">
+    <h1>Workout Counter </h1>
+    <div class="counter_conatiner">
+      <button id="subtract">-</button><span id="output">0</span
+      ><button onclick="Start()" id="add">+</button>
+    </div>
+    <audio id="click">
+        <source src="button.wav" type="audio/ogg">
+        <source src="button.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+<audio id="myAudio">
+  <source src="music.mp3" type="audio/ogg">
+  <source src="music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<button onclick="Start()" type="button">Start</button>
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+<script src="index.js"></script>
